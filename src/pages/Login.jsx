@@ -56,7 +56,7 @@ const Login = () => {
 
   return (
     <div className="productList">
-      <Headline label="Login" />
+      <Headline label="Masuk Dulu, Yukk!" />
       {loading ? <Headline label="Tunggu Sebentar..." /> : <></>}
       {error ? <Headline label="Ada Kesalahan!" /> : <></>}
       <div className="login-wrapped">
@@ -75,7 +75,7 @@ const Login = () => {
             OnChange={(e) => dispatch(setPassword(e.target.value))}
           />
           <Button
-            label="Login"
+            label="Masuk"
             buttonIcon="no-icon"
             type="fill"
             buttonType="submit"

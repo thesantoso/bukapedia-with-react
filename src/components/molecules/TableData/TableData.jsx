@@ -21,7 +21,7 @@ const TableData = (props) => {
       <div className={styles.right}>
         <BodyText label={props.unitPrice} width={64} align="center" />
         <InputField
-          width={64}
+          width={64} align="center"
           value={props.quantity}
           type="number"
           OnChange={props.OnUpdate}

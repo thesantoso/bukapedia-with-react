@@ -82,9 +82,9 @@ const Cart = (props) => {
 
   return (
     <div className="productList">
-      <Headline label="Cart" />
+      <Headline label="Keranjang" align="center"/>
       {cart.length === 0 ? (
-        <Subheadline label="Anda belum menambahkan item apapun." />
+        <Subheadline label="Upss.. Kamu belum menambahkan item apapun :(" />
       ) : (
         <div className="wrapped">
           <div className="header">

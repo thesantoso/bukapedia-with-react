@@ -23,7 +23,7 @@ const RekapPenjualan = () => {
 
   return (
     <div className="productList">
-      <Headline label="Rekap Penjualan" />
+      <Headline label="Riwayat Penjualan" />
       {rekap.length === 0 ? (
         <Subheadline label="Belum ada penjualan." />
       ) : (

@@ -33,19 +33,19 @@ const NavBar = (props) => {
           </div>
           <div className={styles.right}>
             <Button
-              label="Cart"
+              label="Keranjang"
               buttonIcon="cart"
               OnPress={() => navigate("/cart")}
             />
             {isAuthenticated ? (
               <Button
-                label="Logout"
+                label="Keluar"
                 buttonIcon="logout"
                 OnPress={() => logoutHandler()}
               />
             ) : (
               <Button
-                label="Login"
+                label="Masuk"
                 buttonIcon="login"
                 OnPress={() => navigate("/login")}
               />
@@ -65,7 +65,7 @@ const NavBar = (props) => {
               OnPress={() => navigate("/")}
             />
             <Button
-              label="Rekap Penjualan"
+              label="Transaksi"
               color="#181306"
               buttonIcon="no-icon"
               OnPress={() => navigate("/rekap-penjualan")}
@@ -73,7 +73,7 @@ const NavBar = (props) => {
           </div>
           <div className={styles.right}>
             <Button
-              label="Logout"
+              label="Keluar"
               buttonIcon="logout"
               OnPress={() => logoutHandler()}
             />
