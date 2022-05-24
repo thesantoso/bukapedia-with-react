@@ -57,7 +57,7 @@ const NavBar = (props) => {
       return (
         <>
           <div className={styles.left}>
-            <Subheadline label="Tokopaedi" color="#125B50" />
+            <Subheadline label="Tokopaedi" color="#fffff" />
             <Button
               label="Produk"
               color="#181306"

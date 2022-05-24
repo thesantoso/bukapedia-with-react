@@ -58,6 +58,7 @@ const ProductCard = (props) => {
           <Button
             label="Detaiil Produk "
             buttonIcon="no-icon"
+            type="fill"
             OnPress={props.OnView}
           />
           <Button
@@ -73,7 +74,7 @@ const ProductCard = (props) => {
 
   return (
     <div className={styles.container}>
-      <ImageContainer url={props.image} size={480} />
+      <ImageContainer url={props.image} size={400} />
       <div className={styles.wrapped}>
         <div className={styles.info}>
           <Subheadline label={props.title} />

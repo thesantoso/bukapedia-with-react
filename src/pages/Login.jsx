@@ -61,7 +61,7 @@ const Login = () => {
       {error ? <Headline label="Ada Kesalahan!" /> : <></>}
       <div className="login-wrapped">
         <ImageContainer
-          url="https://images.unsplash.com/photo-1621109246687-10ae613f2d8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+          url="https://filebroker-cdn.lazada.co.id/kf/S2b5d246b8e344ab594f48c7a7522d43fB.jpg"
           size={400}
         />
         <form className="form-wrapped" onSubmit={handleSubmit}>

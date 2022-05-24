@@ -4,7 +4,7 @@ import Icon from "../Icon/Icon";
 
 const Button = (props) => {
   const properties = {
-    color: props.type === "fill" ? "#FAF5E4" : "transparent",
+    color: props.type === "fill" ? "#03ac0e" : "transparent",
   };
 
   return (
@@ -15,7 +15,7 @@ const Button = (props) => {
       style={{ backgroundColor: properties.color }}
     >
       <Icon type={props.buttonIcon} />
-      <LinkText label={props.label} color="#125B50" />
+      <LinkText label={props.label} color="#ffffff" />
     </button>
   );
 };
