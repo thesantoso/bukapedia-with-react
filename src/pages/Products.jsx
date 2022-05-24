@@ -47,7 +47,7 @@ const Products = (props) => {
 
   return (
     <div className="productList">
-      <Headline label="Produk Unggulan" />
+      <Headline label="Hi, San! Happy Shopping" />
       {props.role === "admin"
         ? data.map((product) => {
             return (
